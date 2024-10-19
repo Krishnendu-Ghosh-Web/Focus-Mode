@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Focus Mode",
+  "version": "1.0",
+  "description": "Blocks Facebook and Instagram, shows motivational quotes",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
